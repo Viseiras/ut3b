@@ -12,7 +12,7 @@ public class Usuario {
     private String nomUsuario;
     @Column
     private String password;
-    @OneToOne(mappedBy = "usuario")
+    @OneToOne(mappedBy = "usuario",cascade = CascadeType.PERSIST)
     private Empleado empleado;
 
     public Usuario() {

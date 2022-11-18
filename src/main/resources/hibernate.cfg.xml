@@ -16,5 +16,11 @@
     <mapping class="com.dam2.javiervicedo.unidirec.Deportista"/>
     <mapping class="com.dam2.javiervicedo.bidirec.Usuario"/>
     <mapping class="com.dam2.javiervicedo.bidirec.Empleado"/>
+    <mapping class="com.dam2.javiervicedo.onetomany.Profesor"/>
+    <mapping class="com.dam2.javiervicedo.onetomany.Alumno"/>
+    <mapping class="com.dam2.javiervicedo.manytomany.Estudiante"/>
+    <mapping class="com.dam2.javiervicedo.manytomany.Modulo"/>
+    <mapping class="com.dam2.javiervicedo.herencia.Animal"/>
+    <mapping class="com.dam2.javiervicedo.herencia.Gato"/>
   </session-factory>
 </hibernate-configuration>
